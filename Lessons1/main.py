@@ -1,9 +1,9 @@
-#message = "Hello"
+# message = "Hello"
 # message = "Hello world"
 #
 # # Что-то
 #
-#print(message)
+# print(message)
 
 # print(message)
 # a = "Hello"

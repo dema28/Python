@@ -54,12 +54,12 @@
 # result = a + b
 #
 # print(f"{a} + {b}  = {result}")
-
+#
 # string = "Hello world"
 # lower_string = string.upper()
 #
 # print(lower_string)
-
+#
 # name = "Алексей"
 # surname = input("Введите фамилию: ")
 #

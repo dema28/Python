@@ -5,7 +5,7 @@
 # e = 5 == 5
 # f = 1 != 0
 #
-# print(d)
+# print(e)
 #
 # a = "Hello"
 # b = "Helloabc"

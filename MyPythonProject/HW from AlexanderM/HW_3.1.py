@@ -144,18 +144,18 @@ Doc: Вес тут совершенно ни при чем.""")
 
 # 2. Вариант
 
-dct = {}
-for i in dialog.lower():
-    if i.isalpha():
-        if i in dct:
-            dct[i] += 1
-        else:
-            dct[i] = 1
-char = ""
-max_count = 0
-for key, value in dct.items():
-    if value > max_count:
-        max_count = value
-        char = key
-
-print(char, max_count)
+# dct = {}
+# for i in dialog.lower():
+#     if i.isalpha():
+#         if i in dct:
+#             dct[i] += 1
+#         else:
+#             dct[i] = 1
+# char = ""
+# max_count = 0
+# for key, value in dct.items():
+#     if value > max_count:
+#         max_count = value
+#         char = key
+#
+# print(char, max_count)

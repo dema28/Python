@@ -194,7 +194,6 @@ continue -> Пропускает текущую итерацию и перехо
 
 # age = 17
 # admin = True
-#
 # if age <= 18 or admin:
 #     print("Доступ разрешен!")
 # else:

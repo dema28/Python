@@ -52,14 +52,16 @@ values = ['Alice', 30, 'New York', 'Engineer', 'alice@example.com', '+1234567890
 значение занимает ту же позицию, что и ключ в другом списке)
 - Выведите словарь info на экран."""
 
-#
+
 # from pprint import pprint
-# keys = ['name', 'age', 'city', 'occupation', 'email', 'phone', 'hobby', 'education',
-# 'company', 'salary']
+# keys = ['name', 'age', 'city', 'occupation', 'email', 'phone', 'hobby', 'education', 'company', 'salary']
 #
-# values = ['Alice', 30, 'New York', 'Engineer', 'alice@example.com', '+1234567890',
-# 'Reading', 'Masters in Computer Science', 'TechCorp', 90000]
+# values = ['Alice', 30, 'New York', 'Engineer', 'alice@example.com', '+1234567890', 'Reading', 'Masters in Computer Science', 'TechCorp', 90000]
 #
+# dct = dict(zip(keys, values))
+# pprint(dct)
+#
+# 2. Вариант:
 # info = {keys[i]: values[i] for i in range(len(keys))}
 # pprint(info)
 
@@ -124,15 +126,15 @@ Doc: Вес тут совершенно ни при чем."
 раз."""
 
 
-from collections import Counter
-
-dialog = ("""Doc: Запомни! Согласно моей теории, ты помешал знакомству\nЕсли они не встретятся,
-          то не влюбятся, не поженятся, и у них не будет детей.\nПоэтому твой старший брат исчезает с фотограф""")
-
-char_counts = Counter(char.lower() for char in dialog if char.isalpha())  # Подсчитываем количество букв в тексте, игнорируя регистр
-
-max_char, max_count = max(char_counts.items(), key=lambda x: x[1])  # Находим букву с максимальным количеством вхождений
-print(f"Буква '{max_char}' встречается {max_count} раз.")
+# from collections import Counter
+#
+# dialog = ("""Doc: Запомни! Согласно моей теории, ты помешал знакомству\nЕсли они не встретятся,
+#           то не влюбятся, не поженятся, и у них не будет детей.\nПоэтому твой старший брат исчезает с фотограф""")
+#
+# char_counts = Counter(char.lower() for char in dialog if char.isalpha())  # Подсчитываем количество букв в тексте, игнорируя регистр
+#
+# max_char, max_count = max(char_counts.items(), key=lambda x: x[1])  # Находим букву с максимальным количеством вхождений
+# print(f"Буква '{max_char}' встречается {max_count} раз.")
 
 
 

@@ -1,0 +1,44 @@
+{
+  "city": {
+    "apple": "яблоко",
+    "dog": "собака",
+    "house": "дом",
+    "car": "машина",
+    "street": "улица"
+  },
+  "fruits": {
+    "banana": "банан",
+    "orange": "апельсин",
+    "grape": "виноград",
+    "pear": "груша",
+    "kiwi": "киви"
+  },
+  "animals": {
+    "cat": "кот",
+    "horse": "лошадь",
+    "elephant": "слон",
+    "lion": "лев",
+    "tiger": "тигр"
+  },
+  "colors": {
+    "red": "красный",
+    "blue": "синий",
+    "green": "зеленый",
+    "yellow": "желтый",
+    "black": "черный"
+  },
+  "professions": {
+    "doctor": "врач",
+    "teacher": "учитель",
+    "engineer": "инженер",
+    "artist": "художник",
+    "scientist": "ученый"
+  },
+  "sports": {
+    "football": "футбол",
+    "basketball": "баскетбол",
+    "tennis": "теннис",
+    "volleyball": "волейбол",
+    "hockey": "хоккей"
+  }
+}
